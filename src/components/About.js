@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Fade } from "react-awesome-reveal";
 import { RiDropFill, RiDropLine } from "react-icons/ri";
-import { devices } from './devices';
+
 
 function About() {
     return (
@@ -79,7 +79,4 @@ const Text = styled.div`
     font-size: clamp(10px, 4vw, 25px);
     padding: 20px;
 
-    @media ${devices.mobileS} {
-        max-width: 400px;
-    }
 `
